@@ -2,11 +2,13 @@ import java.util.ArrayList;
 
 public class Order {
     private int count;
+
+    private int id;
     private double totalPrice;
 
     private ArrayList<OrderObserver> observers;
 
-    public Order(int count, double totalPrice, ArrayList<OrderObserver> observers) {
+    public Order(int id, int count, double totalPrice, ArrayList<OrderObserver> observers) {
     }
 
     public int getCount() {
