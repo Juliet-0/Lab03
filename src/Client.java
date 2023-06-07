@@ -22,5 +22,4 @@ public class Client {
     public void update(Order order) {
         orders.set(orders.indexOf(order), order);
     }
-
 }
